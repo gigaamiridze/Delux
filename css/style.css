@@ -93,6 +93,12 @@ a {
   height: 38px;
   background-color: #150303;
   border: none;
+  transition-property: all;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
+}
+.container .flex-block .flex-box .buy-btn:hover {
+  background-color: red;
 }
 .container .flex-block .flex-box .buy-btn .buy-link {
   font-size: 14px;

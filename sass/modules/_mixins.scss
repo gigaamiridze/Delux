@@ -27,3 +27,9 @@
   border-style: $style;
   border-color: $color;
 }
+
+@mixin transition($property, $duration, $function) {
+  transition-property: $property;
+  transition-duration: $duration;
+  transition-timing-function: $function;
+}
