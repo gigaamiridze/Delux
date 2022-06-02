@@ -4,4 +4,46 @@
 
 .container {
   @extend %container;
+  .flex-block {
+    @include display(flex);
+    @include flex-property(space-between, center);
+    height: 68px;
+    .logo {
+      @include size(105px, 100%, 30px);
+    }
+    .flex-box {
+      @include display(flex);
+      @include flex-property(space-between, center);
+      nav {
+        margin-right: 10px;  
+        ul {
+          @include display(flex);
+          li {
+            .nav-link {
+              @include text-property(16px, $playfair, $black, none);
+              padding: 10px;
+            }
+          }
+        }
+      }
+      .buy-btn {
+        position: relative;
+        width: 160px;
+        height: 38px;
+        background-color: $black;
+        border: none;
+        .buy-link {
+          @include text-property(14px, $playfair, $white, $upper);
+          letter-spacing: 1px;
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          @include display(flex);
+          @include flex-property(center, center);
+        }
+      }
+    }
+  }
 }
