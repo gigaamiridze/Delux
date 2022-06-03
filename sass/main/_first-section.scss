@@ -1,0 +1,43 @@
+@import "../modules/variables";
+@import "../modules/classes";
+@import "../modules/mixins";
+
+.first-section {
+  background-color: $black;
+  height: 100vh;
+  position: relative;
+  .container {
+    @extend %container;
+    .text-box {
+      max-width: 380px;
+      width: 100%;
+      position: absolute;
+      top: 27%;
+      .large-logo {
+        @include size(365px, 100%, 105px);
+      }
+      .date-and-location {
+        @include text-property(18px, $playfair, $snow, $upper);
+        line-height: 30px;
+        margin: 16px 0;
+        letter-spacing: 4px;
+      }
+      .delux-paragraph {
+        @include text-property(18px, $poppins, $white, none);
+        line-height: 28px;
+        font-weight: $light;
+        margin-bottom: 25px;
+      }
+      .buy-btn {
+        @extend %buy-btn;
+        @include border(1px, solid, $white);
+        &:hover {
+          border-color: $red;
+        }
+        .buy-link {
+          @extend %buy-link;
+        }
+      }
+    }
+  }
+}
