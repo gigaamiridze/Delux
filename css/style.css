@@ -192,14 +192,14 @@ a {
 }
 
 .first-section {
+  position: relative;
   background-color: #150303;
   height: 100vh;
-  position: relative;
 }
 .first-section .container .text-box {
+  position: absolute;
   max-width: 380px;
   width: 100%;
-  position: absolute;
   top: 27%;
 }
 .first-section .container .text-box .large-logo {
@@ -232,4 +232,26 @@ a {
 }
 .first-section .container .text-box .buy-btn:hover {
   border-color: red;
+}
+.first-section .video-box {
+  position: absolute;
+  top: 0;
+  left: auto;
+  bottom: 0;
+  right: 0;
+  max-width: 60%;
+  width: 100%;
+  height: 100vh;
+  z-index: 5;
+  overflow: hidden;
+  opacity: 0.65;
+}
+.first-section .video-box .poster {
+  background-image: url(/images/poster.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
