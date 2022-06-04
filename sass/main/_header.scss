@@ -35,6 +35,7 @@
         }
         .buy-btn {
           @extend %buy-btn;
+          border: none;
           .buy-link {
             @extend %buy-link;
           }

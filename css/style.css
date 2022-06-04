@@ -49,7 +49,7 @@ a {
   box-sizing: border-box;
 }
 
-.first-section .container, .fixed-header .container {
+#About .container, .first-section .container, .fixed-header .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -59,7 +59,6 @@ a {
   width: 160px;
   height: 38px;
   background-color: #150303;
-  border: none;
   transition-property: all;
   transition-duration: 350ms;
   transition-timing-function: ease;
@@ -84,7 +83,7 @@ a {
   align-items: center;
 }
 
-.first-section .container, .fixed-header .container {
+#About .container, .first-section .container, .fixed-header .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -94,7 +93,6 @@ a {
   width: 160px;
   height: 38px;
   background-color: #150303;
-  border: none;
   transition-property: all;
   transition-duration: 350ms;
   transition-timing-function: ease;
@@ -156,7 +154,10 @@ a {
   text-transform: none;
   padding: 10px;
 }
-.first-section .container, .fixed-header .container {
+.fixed-header .container .flex-block .flex-box .buy-btn {
+  border: none;
+}
+#About .container, .first-section .container, .fixed-header .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -166,7 +167,6 @@ a {
   width: 160px;
   height: 38px;
   background-color: #150303;
-  border: none;
   transition-property: all;
   transition-duration: 350ms;
   transition-timing-function: ease;
@@ -233,7 +233,7 @@ a {
 .first-section .container .text-box .buy-btn:hover {
   border-color: red;
 }
-.first-section .video-box {
+.first-section .container .video-box {
   position: absolute;
   top: 0;
   left: auto;
@@ -246,7 +246,7 @@ a {
   overflow: hidden;
   opacity: 0.65;
 }
-.first-section .video-box .poster {
+.first-section .container .video-box .poster {
   background-image: url(/images/poster.jpg);
   background-size: cover;
   background-position: center;
@@ -254,4 +254,100 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+#About .container, .fixed-header .container, .first-section .container {
+  max-width: 1112px;
+  margin: 0 auto;
+}
+
+.fixed-header .container .flex-block .flex-box .buy-btn, .first-section .container .text-box .buy-btn {
+  position: relative;
+  width: 160px;
+  height: 38px;
+  background-color: #150303;
+  transition-property: all;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
+}
+.fixed-header .container .flex-block .flex-box .buy-btn:hover, .first-section .container .text-box .buy-btn:hover {
+  background-color: red;
+}
+
+.fixed-header .container .flex-block .flex-box .buy-btn .buy-link, .first-section .container .text-box .buy-btn .buy-link {
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#About .container .flex-block {
+  display: flex;
+  justify-content: space-between;
+}
+#About .container .flex-block .about-content {
+  max-width: 548px;
+  width: 100%;
+  height: 100%;
+}
+#About .container .flex-block .about-content .title {
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+  color: #150303;
+  text-transform: none;
+  font-weight: 700;
+  line-height: 60px;
+}
+#About .container .flex-block .about-content .paragraph {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #150303;
+  text-transform: none;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 20px 0;
+}
+#About .container .flex-block .about-content .watch-btn {
+  position: relative;
+  max-width: 128px;
+  width: 100%;
+  height: 44px;
+  background-color: transparent;
+  border: none;
+  transition-property: all;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
+}
+#About .container .flex-block .about-content .watch-btn:hover {
+  background-color: red;
+}
+#About .container .flex-block .about-content .watch-btn .link {
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  color: red;
+  text-transform: capitalize;
+  font-weight: 500;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: all;
+  transition-duration: 450ms;
+  transition-timing-function: ease;
+}
+#About .container .flex-block .about-content .watch-btn .link:hover {
+  color: #FFFFFF;
 }

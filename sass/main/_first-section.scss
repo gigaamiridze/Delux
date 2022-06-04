@@ -39,22 +39,22 @@
         }
       }
     }
-  }
-  .video-box {
-    position: absolute;
-    top: 0;
-    left: auto;
-    bottom: 0;
-    right: 0;
-    @include size(60%, 100%, 100vh);
-    z-index: 5;
-    overflow: hidden;
-    opacity: 0.65;
-    .poster {
-      @include bg-img(url(/images/poster.jpg), cover, center, no-repeat);
-      width: 100%;
-      height: 100%;
-      object-fit: cover;      
+    .video-box {
+      position: absolute;
+      top: 0;
+      left: auto;
+      bottom: 0;
+      right: 0;
+      @include size(60%, 100%, 100vh);
+      z-index: 5;
+      overflow: hidden;
+      opacity: 0.65;
+      .poster {
+        @include bg-img(url(/images/poster.jpg), cover, center, no-repeat);
+        width: 100%;
+        height: 100%;
+        object-fit: cover;      
+      }
     }
   }
 }
