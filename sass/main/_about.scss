@@ -3,6 +3,7 @@
 @import "../modules/mixins";
 
 #About {
+  background-color: $snow;
   .container {
     @extend %container;
     .flex-block {
@@ -42,7 +43,7 @@
 	          @include flex-property(center, center);
             @include transition(all, 450ms, ease);
             &:hover {
-              color: $white;
+              color: $snow;
             }
           }
         }

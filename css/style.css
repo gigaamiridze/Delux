@@ -70,7 +70,7 @@ a {
 .first-section .container .text-box .buy-btn .buy-link, .fixed-header .container .flex-block .flex-box .buy-btn .buy-link {
   font-size: 14px;
   font-family: "Playfair Display", serif;
-  color: #FFFFFF;
+  color: snow;
   text-transform: uppercase;
   letter-spacing: 1px;
   position: absolute;
@@ -104,7 +104,7 @@ a {
 .first-section .container .text-box .buy-btn .buy-link, .fixed-header .container .flex-block .flex-box .buy-btn .buy-link {
   font-size: 14px;
   font-family: "Playfair Display", serif;
-  color: #FFFFFF;
+  color: snow;
   text-transform: uppercase;
   letter-spacing: 1px;
   position: absolute;
@@ -124,6 +124,9 @@ a {
   top: 0;
   width: 100%;
   z-index: 10;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
 }
 .fixed-header .container .flex-block {
   display: flex;
@@ -150,13 +153,24 @@ a {
 .fixed-header .container .flex-block .flex-box nav ul li .nav-link {
   font-size: 16px;
   font-family: "Playfair Display", serif;
-  color: #FFFFFF;
+  color: snow;
   text-transform: none;
   padding: 10px;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
 }
 .fixed-header .container .flex-block .flex-box .buy-btn {
   border: none;
 }
+.active {
+  background-color: snow;
+}
+
+.active .nav-link {
+  color: #150303 !important;
+}
+
 #About .container, .first-section .container, .fixed-header .container {
   max-width: 1112px;
   margin: 0 auto;
@@ -178,7 +192,7 @@ a {
 .first-section .container .text-box .buy-btn .buy-link, .fixed-header .container .flex-block .flex-box .buy-btn .buy-link {
   font-size: 14px;
   font-family: "Playfair Display", serif;
-  color: #FFFFFF;
+  color: snow;
   text-transform: uppercase;
   letter-spacing: 1px;
   position: absolute;
@@ -219,7 +233,7 @@ a {
 .first-section .container .text-box .delux-paragraph {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
-  color: #FFFFFF;
+  color: snow;
   text-transform: none;
   line-height: 28px;
   font-weight: 300;
@@ -228,7 +242,7 @@ a {
 .first-section .container .text-box .buy-btn {
   border-width: 1px;
   border-style: solid;
-  border-color: #FFFFFF;
+  border-color: snow;
 }
 .first-section .container .text-box .buy-btn:hover {
   border-color: red;
@@ -277,7 +291,7 @@ a {
 .fixed-header .container .flex-block .flex-box .buy-btn .buy-link, .first-section .container .text-box .buy-btn .buy-link {
   font-size: 14px;
   font-family: "Playfair Display", serif;
-  color: #FFFFFF;
+  color: snow;
   text-transform: uppercase;
   letter-spacing: 1px;
   position: absolute;
@@ -290,6 +304,9 @@ a {
   align-items: center;
 }
 
+#About {
+  background-color: snow;
+}
 #About .container .flex-block {
   display: flex;
   justify-content: space-between;
@@ -349,5 +366,5 @@ a {
   transition-timing-function: ease;
 }
 #About .container .flex-block .about-content .watch-btn .link:hover {
-  color: #FFFFFF;
+  color: snow;
 }
