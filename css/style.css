@@ -49,7 +49,7 @@ a {
   box-sizing: border-box;
 }
 
-#About .container, .first-section .container, .fixed-header .container {
+#About .flex-block .container, .first-section .container, .fixed-header .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -83,7 +83,7 @@ a {
   align-items: center;
 }
 
-#About .container, .first-section .container, .fixed-header .container {
+#About .flex-block .container, .first-section .container, .fixed-header .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -174,7 +174,7 @@ a {
   color: #150303 !important;
 }
 
-#About .container, .first-section .container, .fixed-header .container {
+#About .flex-block .container, .first-section .container, .fixed-header .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -273,7 +273,7 @@ a {
   object-fit: cover;
 }
 
-#About .container, .fixed-header .container, .first-section .container {
+#About .flex-block .container, .fixed-header .container, .first-section .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -309,17 +309,23 @@ a {
 
 #About {
   background-color: snow;
+  padding: 60px 0;
 }
-#About .container .flex-block {
+#About .flex-block {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-#About .container .flex-block .about-content {
-  max-width: 548px;
+#About .flex-block .about-img {
+  max-width: 44%;
+  width: 100%;
+}
+#About .flex-block .container .about-content {
+  max-width: 527px;
   width: 100%;
   height: 100%;
 }
-#About .container .flex-block .about-content .title {
+#About .flex-block .container .about-content .title {
   font-size: 48px;
   font-family: "Playfair Display", serif;
   color: #150303;
@@ -327,7 +333,7 @@ a {
   font-weight: 700;
   line-height: 60px;
 }
-#About .container .flex-block .about-content .paragraph {
+#About .flex-block .container .about-content .paragraph {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
   color: #150303;
@@ -336,7 +342,7 @@ a {
   line-height: 30px;
   margin: 20px 0;
 }
-#About .container .flex-block .about-content .watch-btn {
+#About .flex-block .container .about-content .watch-btn {
   position: relative;
   max-width: 128px;
   width: 100%;
@@ -347,10 +353,10 @@ a {
   transition-duration: 350ms;
   transition-timing-function: ease;
 }
-#About .container .flex-block .about-content .watch-btn:hover {
+#About .flex-block .container .about-content .watch-btn:hover {
   background-color: red;
 }
-#About .container .flex-block .about-content .watch-btn .link {
+#About .flex-block .container .about-content .watch-btn .link {
   font-size: 20px;
   font-family: "Playfair Display", serif;
   color: red;
@@ -368,6 +374,6 @@ a {
   transition-duration: 450ms;
   transition-timing-function: ease;
 }
-#About .container .flex-block .about-content .watch-btn .link:hover {
+#About .flex-block .container .about-content .watch-btn .link:hover {
   color: snow;
 }

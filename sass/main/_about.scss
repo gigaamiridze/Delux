@@ -4,13 +4,19 @@
 
 #About {
   background-color: $snow;
-  .container {
-    @extend %container;
-    .flex-block {
-      @include display(flex);
-      justify-content: space-between;
+  padding: 60px 0;
+  .flex-block {
+    @include display(flex);
+    justify-content: space-between;
+    align-items: center;
+    .about-img {
+      max-width: 44%;
+      width: 100%;
+    }
+    .container {
+      @extend %container;
       .about-content {
-        @include size(548px, 100%, 100%);
+        @include size(527px, 100%, 100%);
         .title {
           @include text-property(48px, $playfair, $black, none);
           font-weight: $bold;
@@ -40,7 +46,7 @@
             width: 100%;
             height: 100%;
             @include display(flex);
-	          @include flex-property(center, center);
+            @include flex-property(center, center);
             @include transition(all, 450ms, ease);
             &:hover {
               color: $snow;
