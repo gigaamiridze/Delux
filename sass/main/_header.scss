@@ -2,6 +2,10 @@
 @import "../modules/classes";
 @import "../modules/mixins";
 
+html {
+  scroll-behavior: smooth;
+}
+
 .fixed-header {
   position: fixed;
   background-color: transparent;
@@ -32,6 +36,9 @@
                 padding: 10px;
                 @include transition(all, 350ms, ease);
                 &:hover {
+                  background-color: $red;
+                }
+                &.active {
                   background-color: $red;
                 }
               }

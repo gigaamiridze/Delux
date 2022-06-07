@@ -117,6 +117,10 @@ a {
   align-items: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .fixed-header {
   position: fixed;
   background-color: transparent;
@@ -161,6 +165,9 @@ a {
   transition-timing-function: ease;
 }
 .fixed-header .container .flex-block .flex-box nav ul li .nav-link:hover {
+  background-color: red;
+}
+.fixed-header .container .flex-block .flex-box nav ul li .nav-link.active {
   background-color: red;
 }
 .fixed-header .container .flex-block .flex-box .buy-btn {
