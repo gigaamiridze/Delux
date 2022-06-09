@@ -49,7 +49,7 @@ a {
   box-sizing: border-box;
 }
 
-#About .flex-block .container, .first-section .container, .fixed-header .container {
+#Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -83,7 +83,7 @@ a {
   align-items: center;
 }
 
-#About .flex-block .container, .first-section .container, .fixed-header .container {
+#Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -181,7 +181,7 @@ html {
   color: #150303 !important;
 }
 
-#About .flex-block .container, .first-section .container, .fixed-header .container {
+#Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -280,7 +280,7 @@ html {
   object-fit: cover;
 }
 
-#About .flex-block .container, .fixed-header .container, .first-section .container {
+#Speakers .container, #About .flex-block .container, .fixed-header .container, .first-section .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -383,4 +383,71 @@ html {
 }
 #About .flex-block .container .about-content .watch-btn .link:hover {
   color: snow;
+}
+
+#Speakers .container, .fixed-header .container, .first-section .container, #About .flex-block .container {
+  max-width: 1112px;
+  margin: 0 auto;
+}
+
+.fixed-header .container .flex-block .flex-box .buy-btn, .first-section .container .text-box .buy-btn {
+  position: relative;
+  width: 160px;
+  height: 38px;
+  background-color: #150303;
+  transition-property: all;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
+}
+.fixed-header .container .flex-block .flex-box .buy-btn:hover, .first-section .container .text-box .buy-btn:hover {
+  background-color: red;
+}
+
+.fixed-header .container .flex-block .flex-box .buy-btn .buy-link, .first-section .container .text-box .buy-btn .buy-link {
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: snow;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Speakers {
+  background-color: snow;
+}
+#Speakers .container .flex-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: none;
+}
+#Speakers .container .flex-block .speakers-content {
+  max-width: 365px;
+  width: 100%;
+  height: 100%;
+}
+#Speakers .container .flex-block .speakers-content .title {
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+  color: #150303;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 60px;
+}
+#Speakers .container .flex-block .speakers-content .paragraph {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #150303;
+  text-transform: none;
+  font-weight: 300;
+  line-height: 30px;
+}
+#Speakers .container .flex-block .speakers-content .paragraph:first-of-type {
+  margin: 20px 0 30px 0;
 }

@@ -1,0 +1,30 @@
+@import "../modules/variables";
+@import "../modules/classes";
+@import "../modules/mixins";
+
+#Speakers {
+  background-color: $snow;
+  .container {
+    @extend %container;
+    .flex-block {
+      @include display(flex);
+      @include flex-property(space-between, none);
+      .speakers-content {
+        @include size(365px, 100%, 100%);
+        .title {
+          @include text-property(48px, $playfair, $black, $capit);
+          font-weight: $bold;
+          line-height: 60px;
+        }
+        .paragraph {
+          @include text-property(18px, $poppins, $black, none);
+          font-weight: $light;
+          line-height: 30px;
+          &:first-of-type {
+            margin: 20px 0 30px 0; 
+          }
+        }
+      }
+    }
+  }
+}
