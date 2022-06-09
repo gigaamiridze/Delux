@@ -3,8 +3,17 @@
 @import "../modules/mixins";
 
 #Speakers {
+  position: relative;
   background-color: $snow;
   padding: 90px 0;
+  .shape-box {
+    position: absolute;
+    top: 93px;
+    right: 0;
+    .speaker-shape {
+      height: 500px;
+    }
+  }
   .container {
     @extend %container;
     .flex-block {

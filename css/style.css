@@ -420,8 +420,17 @@ html {
 }
 
 #Speakers {
+  position: relative;
   background-color: snow;
   padding: 90px 0;
+}
+#Speakers .shape-box {
+  position: absolute;
+  top: 93px;
+  right: 0;
+}
+#Speakers .shape-box .speaker-shape {
+  height: 500px;
 }
 #Speakers .container .flex-block {
   display: flex;
