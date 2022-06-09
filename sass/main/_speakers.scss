@@ -27,9 +27,12 @@
       }
       .speakers-block {
         @include size(100%, 100%, 100%);
-        .top-box {
+        .flex-block {
           @include display(flex);
           justify-content: flex-end;
+          &:first-child {
+            margin-bottom: 20px;
+          }
           .speaker-box {
             max-width: 213px;
             width: 100%;
@@ -37,11 +40,14 @@
               margin: 0 16px;
             }
             .img-size {
-              min-height: 20vh;
+              min-height: 30vh;
             }
             .maddison-img { @include bg-img(url(/images/maddison.jpg), cover, center, no-repeat); }
             .david-img { @include bg-img(url(/images/david.jpg), cover, center, no-repeat); }
             .rachel-img { @include bg-img(url(/images/rachel.jpg), cover, center, no-repeat); }
+            .matthew-img { @include bg-img(url(/images/matthew.jpg), cover, center, no-repeat); }
+            .jason-img { @include bg-img(url(/images/jason.jpg), cover, center, no-repeat); }
+            .brian-img { @include bg-img(url(/images/brian.jpg), cover, center, no-repeat); }
             .speaker-name-and-company {
               .speaker-name {
                 @include text-property(16px, $poppins, $black, $capit);
@@ -56,6 +62,9 @@
               .webflow { width: 62px; }
               .zapier { width: 49px; }
               .slack { width: 54px; }
+              .stripe { width: 40px; }
+              .facebook { width: 60px; }
+              .mailchimp { width: 72px; }
             }
           }
         }
