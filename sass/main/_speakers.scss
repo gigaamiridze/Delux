@@ -25,6 +25,29 @@
           }
         }
       }
+      .speakers-block {
+        @include size(100%, 100%, 100%);
+        .speaker-box {
+          max-width: 213px;
+          width: 100%;
+          .speaker-img {
+            min-height: 20vh;
+            @include bg-img(url(/images/maddison.jpg), cover, center, no-repeat);
+            object-fit: cover;
+          }
+          .speaker-name-and-company {
+            .speaker-name {
+              @include text-property(16px, $poppins, $black, $capit);
+              font-weight: $light;
+              line-height: 20px;
+              padding: 10px 0 7px 0;
+            }
+            .company-img {
+              width: 62px;
+            }
+          }
+        }
+      }
     }
   }
 }
