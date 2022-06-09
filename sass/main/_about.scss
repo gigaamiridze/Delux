@@ -4,7 +4,7 @@
 
 #About {
   background-color: $snow;
-  padding: 60px 0;
+  padding-top: 60px;
   .flex-block {
     @include display(flex);
     justify-content: space-between;

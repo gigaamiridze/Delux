@@ -316,7 +316,7 @@ html {
 
 #About {
   background-color: snow;
-  padding: 60px 0;
+  padding-top: 60px;
 }
 #About .flex-block {
   display: flex;
@@ -421,6 +421,7 @@ html {
 
 #Speakers {
   background-color: snow;
+  padding: 90px 0;
 }
 #Speakers .container .flex-block {
   display: flex;
