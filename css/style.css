@@ -456,19 +456,39 @@ html {
   width: 100%;
   height: 100%;
 }
-#Speakers .container .flex-block .speakers-block .speaker-box {
+#Speakers .container .flex-block .speakers-block .top-box {
+  display: flex;
+  justify-content: flex-end;
+}
+#Speakers .container .flex-block .speakers-block .top-box .speaker-box {
   max-width: 213px;
   width: 100%;
 }
-#Speakers .container .flex-block .speakers-block .speaker-box .speaker-img {
+#Speakers .container .flex-block .speakers-block .top-box .speaker-box:nth-of-type(2) {
+  margin: 0 16px;
+}
+#Speakers .container .flex-block .speakers-block .top-box .speaker-box .img-size {
   min-height: 20vh;
+}
+#Speakers .container .flex-block .speakers-block .top-box .speaker-box .maddison-img {
   background-image: url(/images/maddison.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  object-fit: cover;
 }
-#Speakers .container .flex-block .speakers-block .speaker-box .speaker-name-and-company .speaker-name {
+#Speakers .container .flex-block .speakers-block .top-box .speaker-box .david-img {
+  background-image: url(/images/david.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#Speakers .container .flex-block .speakers-block .top-box .speaker-box .rachel-img {
+  background-image: url(/images/rachel.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#Speakers .container .flex-block .speakers-block .top-box .speaker-box .speaker-name-and-company .speaker-name {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   color: #150303;
@@ -477,6 +497,15 @@ html {
   line-height: 20px;
   padding: 10px 0 7px 0;
 }
-#Speakers .container .flex-block .speakers-block .speaker-box .speaker-name-and-company .company-img {
+#Speakers .container .flex-block .speakers-block .top-box .speaker-box .speaker-name-and-company .change-padd {
+  padding-bottom: 5px;
+}
+#Speakers .container .flex-block .speakers-block .top-box .speaker-box .speaker-name-and-company .webflow {
   width: 62px;
+}
+#Speakers .container .flex-block .speakers-block .top-box .speaker-box .speaker-name-and-company .zapier {
+  width: 49px;
+}
+#Speakers .container .flex-block .speakers-block .top-box .speaker-box .speaker-name-and-company .slack {
+  width: 54px;
 }

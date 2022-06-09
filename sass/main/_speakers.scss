@@ -27,23 +27,35 @@
       }
       .speakers-block {
         @include size(100%, 100%, 100%);
-        .speaker-box {
-          max-width: 213px;
-          width: 100%;
-          .speaker-img {
-            min-height: 20vh;
-            @include bg-img(url(/images/maddison.jpg), cover, center, no-repeat);
-            object-fit: cover;
-          }
-          .speaker-name-and-company {
-            .speaker-name {
-              @include text-property(16px, $poppins, $black, $capit);
-              font-weight: $light;
-              line-height: 20px;
-              padding: 10px 0 7px 0;
+        .top-box {
+          @include display(flex);
+          justify-content: flex-end;
+          .speaker-box {
+            max-width: 213px;
+            width: 100%;
+            &:nth-of-type(2) {
+              margin: 0 16px;
             }
-            .company-img {
-              width: 62px;
+            .img-size {
+              min-height: 20vh;
+            }
+            .maddison-img { @include bg-img(url(/images/maddison.jpg), cover, center, no-repeat); }
+            .david-img { @include bg-img(url(/images/david.jpg), cover, center, no-repeat); }
+            .rachel-img { @include bg-img(url(/images/rachel.jpg), cover, center, no-repeat); }
+            .speaker-name-and-company {
+              .speaker-name {
+                @include text-property(16px, $poppins, $black, $capit);
+                font-weight: $light;
+                line-height: 20px;
+                padding: 10px 0 7px 0;
+              }
+              .change-padd {
+                padding-bottom: 5px;
+              }
+              // Logos' widths
+              .webflow { width: 62px; }
+              .zapier { width: 49px; }
+              .slack { width: 54px; }
             }
           }
         }
