@@ -553,7 +553,7 @@ html {
 #Agenda {
   background-color: #150303;
 }
-#Agenda .container .agenda-title {
+#Agenda .container .agenda-block .agenda-title {
   font-size: 48px;
   font-family: "Playfair Display", serif;
   color: snow;
@@ -561,5 +561,34 @@ html {
   font-weight: 700;
   line-height: 60px;
   text-align: center;
-  padding: 90px 0 45px 0;
+  padding-top: 90px;
+  margin-bottom: 45px;
+}
+#Agenda .container .agenda-block .flex-block {
+  display: flex;
+}
+#Agenda .container .agenda-block .flex-block .timeline-box {
+  max-width: 357px;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(0deg, 100%, 99%, 0.03);
+  padding: 15px;
+}
+#Agenda .container .agenda-block .flex-block .timeline-box:nth-child(2) {
+  margin: 0 20px;
+}
+#Agenda .container .agenda-block .flex-block .timeline-box .day {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: snow;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#Agenda .container .agenda-block .flex-block .timeline-box .timeline-date {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: snow;
+  text-transform: uppercase;
+  text-align: center;
 }
