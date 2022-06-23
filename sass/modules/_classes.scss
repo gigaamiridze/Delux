@@ -28,3 +28,20 @@
 	@include display(flex);
 	@include flex-property(center, center);
 }
+
+%center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+}
+
+// Agenda box's time and event titles
+%agenda-box-title {
+	@include text-property(14px, $poppins, $snow, none);
+	font-weight: $light;
+	text-align: center;
+	line-height: 20px;
+	width: 50%;
+	margin-bottom: 50px;
+}
