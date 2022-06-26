@@ -54,7 +54,7 @@ a {
   margin: 0 auto;
 }
 
-.first-section .container .text-box .buy-btn, .fixed-header .container .flex-block .flex-box .buy-btn {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn, .first-section .container .text-box .buy-btn, .fixed-header .container .flex-block .flex-box .buy-btn {
   position: relative;
   width: 160px;
   height: 38px;
@@ -63,11 +63,11 @@ a {
   transition-duration: 350ms;
   transition-timing-function: ease;
 }
-.first-section .container .text-box .buy-btn:hover, .fixed-header .container .flex-block .flex-box .buy-btn:hover {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn:hover, .first-section .container .text-box .buy-btn:hover, .fixed-header .container .flex-block .flex-box .buy-btn:hover {
   background-color: red;
 }
 
-.first-section .container .text-box .buy-btn .buy-link, .fixed-header .container .flex-block .flex-box .buy-btn .buy-link {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn .buy-link, .first-section .container .text-box .buy-btn .buy-link, .fixed-header .container .flex-block .flex-box .buy-btn .buy-link {
   font-size: 14px;
   font-family: "Playfair Display", serif;
   color: snow;
@@ -100,7 +100,7 @@ a {
   margin: 0 auto;
 }
 
-.first-section .container .text-box .buy-btn, .fixed-header .container .flex-block .flex-box .buy-btn {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn, .first-section .container .text-box .buy-btn, .fixed-header .container .flex-block .flex-box .buy-btn {
   position: relative;
   width: 160px;
   height: 38px;
@@ -109,11 +109,11 @@ a {
   transition-duration: 350ms;
   transition-timing-function: ease;
 }
-.first-section .container .text-box .buy-btn:hover, .fixed-header .container .flex-block .flex-box .buy-btn:hover {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn:hover, .first-section .container .text-box .buy-btn:hover, .fixed-header .container .flex-block .flex-box .buy-btn:hover {
   background-color: red;
 }
 
-.first-section .container .text-box .buy-btn .buy-link, .fixed-header .container .flex-block .flex-box .buy-btn .buy-link {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn .buy-link, .first-section .container .text-box .buy-btn .buy-link, .fixed-header .container .flex-block .flex-box .buy-btn .buy-link {
   font-size: 14px;
   font-family: "Playfair Display", serif;
   color: snow;
@@ -210,7 +210,7 @@ html {
   margin: 0 auto;
 }
 
-.first-section .container .text-box .buy-btn, .fixed-header .container .flex-block .flex-box .buy-btn {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn, .first-section .container .text-box .buy-btn, .fixed-header .container .flex-block .flex-box .buy-btn {
   position: relative;
   width: 160px;
   height: 38px;
@@ -219,11 +219,11 @@ html {
   transition-duration: 350ms;
   transition-timing-function: ease;
 }
-.first-section .container .text-box .buy-btn:hover, .fixed-header .container .flex-block .flex-box .buy-btn:hover {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn:hover, .first-section .container .text-box .buy-btn:hover, .fixed-header .container .flex-block .flex-box .buy-btn:hover {
   background-color: red;
 }
 
-.first-section .container .text-box .buy-btn .buy-link, .fixed-header .container .flex-block .flex-box .buy-btn .buy-link {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn .buy-link, .first-section .container .text-box .buy-btn .buy-link, .fixed-header .container .flex-block .flex-box .buy-btn .buy-link {
   font-size: 14px;
   font-family: "Playfair Display", serif;
   color: snow;
@@ -321,7 +321,7 @@ html {
   margin: 0 auto;
 }
 
-.fixed-header .container .flex-block .flex-box .buy-btn, .first-section .container .text-box .buy-btn {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn, .fixed-header .container .flex-block .flex-box .buy-btn, .first-section .container .text-box .buy-btn {
   position: relative;
   width: 160px;
   height: 38px;
@@ -330,11 +330,11 @@ html {
   transition-duration: 350ms;
   transition-timing-function: ease;
 }
-.fixed-header .container .flex-block .flex-box .buy-btn:hover, .first-section .container .text-box .buy-btn:hover {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn:hover, .fixed-header .container .flex-block .flex-box .buy-btn:hover, .first-section .container .text-box .buy-btn:hover {
   background-color: red;
 }
 
-.fixed-header .container .flex-block .flex-box .buy-btn .buy-link, .first-section .container .text-box .buy-btn .buy-link {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn .buy-link, .fixed-header .container .flex-block .flex-box .buy-btn .buy-link, .first-section .container .text-box .buy-btn .buy-link {
   font-size: 14px;
   font-family: "Playfair Display", serif;
   color: snow;
@@ -438,7 +438,7 @@ html {
   margin: 0 auto;
 }
 
-.fixed-header .container .flex-block .flex-box .buy-btn, .first-section .container .text-box .buy-btn {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn, .fixed-header .container .flex-block .flex-box .buy-btn, .first-section .container .text-box .buy-btn {
   position: relative;
   width: 160px;
   height: 38px;
@@ -447,11 +447,11 @@ html {
   transition-duration: 350ms;
   transition-timing-function: ease;
 }
-.fixed-header .container .flex-block .flex-box .buy-btn:hover, .first-section .container .text-box .buy-btn:hover {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn:hover, .fixed-header .container .flex-block .flex-box .buy-btn:hover, .first-section .container .text-box .buy-btn:hover {
   background-color: red;
 }
 
-.fixed-header .container .flex-block .flex-box .buy-btn .buy-link, .first-section .container .text-box .buy-btn .buy-link {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn .buy-link, .fixed-header .container .flex-block .flex-box .buy-btn .buy-link, .first-section .container .text-box .buy-btn .buy-link {
   font-size: 14px;
   font-family: "Playfair Display", serif;
   color: snow;
@@ -581,7 +581,7 @@ html {
   margin: 0 auto;
 }
 
-.fixed-header .container .flex-block .flex-box .buy-btn, .first-section .container .text-box .buy-btn {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn, .fixed-header .container .flex-block .flex-box .buy-btn, .first-section .container .text-box .buy-btn {
   position: relative;
   width: 160px;
   height: 38px;
@@ -590,11 +590,11 @@ html {
   transition-duration: 350ms;
   transition-timing-function: ease;
 }
-.fixed-header .container .flex-block .flex-box .buy-btn:hover, .first-section .container .text-box .buy-btn:hover {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn:hover, .fixed-header .container .flex-block .flex-box .buy-btn:hover, .first-section .container .text-box .buy-btn:hover {
   background-color: red;
 }
 
-.fixed-header .container .flex-block .flex-box .buy-btn .buy-link, .first-section .container .text-box .buy-btn .buy-link {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn .buy-link, .fixed-header .container .flex-block .flex-box .buy-btn .buy-link, .first-section .container .text-box .buy-btn .buy-link {
   font-size: 14px;
   font-family: "Playfair Display", serif;
   color: snow;
@@ -710,7 +710,7 @@ html {
   margin: 0 auto;
 }
 
-.fixed-header .container .flex-block .flex-box .buy-btn, .first-section .container .text-box .buy-btn {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn, .fixed-header .container .flex-block .flex-box .buy-btn, .first-section .container .text-box .buy-btn {
   position: relative;
   width: 160px;
   height: 38px;
@@ -719,11 +719,11 @@ html {
   transition-duration: 350ms;
   transition-timing-function: ease;
 }
-.fixed-header .container .flex-block .flex-box .buy-btn:hover, .first-section .container .text-box .buy-btn:hover {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn:hover, .fixed-header .container .flex-block .flex-box .buy-btn:hover, .first-section .container .text-box .buy-btn:hover {
   background-color: red;
 }
 
-.fixed-header .container .flex-block .flex-box .buy-btn .buy-link, .first-section .container .text-box .buy-btn .buy-link {
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn .buy-link, .fixed-header .container .flex-block .flex-box .buy-btn .buy-link, .first-section .container .text-box .buy-btn .buy-link {
   font-size: 14px;
   font-family: "Playfair Display", serif;
   color: snow;
@@ -752,6 +752,7 @@ html {
 }
 
 #Pricing {
+  background-color: snow;
   padding: 90px 0;
 }
 #Pricing .container .buy-title {
@@ -763,4 +764,76 @@ html {
   line-height: 60px;
   text-align: center;
   margin-bottom: 45px;
+}
+#Pricing .container .flex-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#Pricing .container .flex-block .pricing-card {
+  max-width: 545px;
+  width: 100%;
+  padding: 24px;
+}
+#Pricing .container .flex-block .pricing-card .content-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Pricing .container .flex-block .pricing-card .content-box h3 {
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  color: #150303;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: 15px;
+}
+#Pricing .container .flex-block .pricing-card .content-box .price {
+  width: 82px;
+  height: 44px;
+  background-color: rgba(255, 0, 0, 0.2);
+  margin: 30px 0;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  color: red;
+  text-transform: none;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Pricing .container .flex-block .pricing-card .content-box h5 {
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  color: #150303;
+  text-transform: none;
+  font-weight: 700;
+  line-height: 24px;
+}
+#Pricing .container .flex-block .pricing-card .content-box .paragraphs-box .paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+}
+#Pricing .container .flex-block .pricing-card .content-box .paragraphs-box .paragraph span {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #150303;
+  text-transform: none;
+  font-weight: 300;
+}
+#Pricing .container .flex-block .pricing-card .content-box .paragraphs-box .paragraph p {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #150303;
+  text-transform: none;
+  font-weight: 300;
+  margin-left: 5px;
+}
+#Pricing .container .flex-block .pricing-card .content-box .buy-btn {
+  border: none;
+  margin-top: 25px;
 }
