@@ -1,0 +1,17 @@
+@import "../modules/variables";
+@import "../modules/classes";
+@import "../modules/mixins";
+
+#Pricing {
+  padding: 90px 0; 
+  .container {
+    @extend %container;
+    .buy-title {
+      @include text-property(48px, $playfair, $black, $capit);
+      font-weight: $bold;
+      line-height: 60px;
+      text-align: center;
+      margin-bottom: 45px;
+    }
+  }
+}
