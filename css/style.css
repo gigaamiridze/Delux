@@ -901,7 +901,7 @@ html {
 #FAQs .container .FAQs-content .faq-wrapper .faq-question {
   display: flex;
   align-items: center;
-  margin: 20px 0;
+  margin-top: 20px;
   cursor: pointer;
 }
 #FAQs .container .FAQs-content .faq-wrapper .faq-question .plus-box {
@@ -936,7 +936,8 @@ html {
 #FAQs .container .FAQs-content .faq-wrapper .faq-answer {
   max-width: 666px;
   width: 100%;
-  margin-bottom: 50px;
+  margin: 20px 0;
+  display: none;
 }
 #FAQs .container .FAQs-content .faq-wrapper .faq-answer p {
   font-size: 16px;

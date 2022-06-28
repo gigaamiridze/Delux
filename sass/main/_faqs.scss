@@ -18,7 +18,7 @@
         .faq-question {
           @include display(flex);
           align-items: center;
-          margin: 20px 0;
+          margin-top: 20px;
           cursor: pointer;
           .plus-box {
             width: 20px;
@@ -49,7 +49,8 @@
         .faq-answer {
           max-width: 666px;
           width: 100%;
-          margin-bottom: 50px;
+          margin: 20px 0;
+          display: none;
           p {
             @include text-property(16px, $poppins, $black, none);
             font-weight: $light;
