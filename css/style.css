@@ -49,7 +49,7 @@ a {
   box-sizing: border-box;
 }
 
-#Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
+#FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -95,7 +95,7 @@ a {
   margin-bottom: 50px;
 }
 
-#Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
+#FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -205,7 +205,7 @@ html {
   color: #150303 !important;
 }
 
-#Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
+#FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -316,7 +316,7 @@ html {
   object-fit: cover;
 }
 
-#Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .fixed-header .container, .first-section .container {
+#FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .fixed-header .container, .first-section .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -433,7 +433,7 @@ html {
   color: snow;
 }
 
-#Pricing .container, #Agenda .container, #Speakers .container, .fixed-header .container, .first-section .container, #About .flex-block .container {
+#FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, .fixed-header .container, .first-section .container, #About .flex-block .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -576,7 +576,7 @@ html {
   width: 72px;
 }
 
-#Pricing .container, #Agenda .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container {
+#FAQs .container, #Pricing .container, #Agenda .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -705,7 +705,7 @@ html {
   height: 400px;
 }
 
-#Pricing .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container, #Agenda .container {
+#FAQs .container, #Pricing .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container, #Agenda .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -836,4 +836,62 @@ html {
 #Pricing .container .flex-block .pricing-card .content-box .buy-btn {
   border: none;
   margin-top: 25px;
+}
+#FAQs .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container, #Agenda .container, #Pricing .container {
+  max-width: 1112px;
+  margin: 0 auto;
+}
+
+.fixed-header .container .flex-block .flex-box .buy-btn, .first-section .container .text-box .buy-btn, #Pricing .container .flex-block .pricing-card .content-box .buy-btn {
+  position: relative;
+  width: 160px;
+  height: 38px;
+  background-color: #150303;
+  transition-property: all;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
+}
+.fixed-header .container .flex-block .flex-box .buy-btn:hover, .first-section .container .text-box .buy-btn:hover, #Pricing .container .flex-block .pricing-card .content-box .buy-btn:hover {
+  background-color: red;
+}
+
+.fixed-header .container .flex-block .flex-box .buy-btn .buy-link, .first-section .container .text-box .buy-btn .buy-link, #Pricing .container .flex-block .pricing-card .content-box .buy-btn .buy-link {
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: snow;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Agenda .container .agenda-block .flex-block .timeline-box .agenda-box .agenda-content .time, #Agenda .container .agenda-block .flex-block .timeline-box .agenda-box .agenda-content .event {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: snow;
+  text-transform: none;
+  font-weight: 300;
+  text-align: center;
+  line-height: 20px;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+#FAQs {
+  background-color: snow;
+  padding: 90px 0;
+}
+#FAQs .container .FAQs-content h2 {
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+  color: #150303;
+  text-transform: none;
+  font-weight: 700;
+  line-height: 60px;
 }
