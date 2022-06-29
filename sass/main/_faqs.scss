@@ -5,6 +5,8 @@
 #FAQs {
   background-color: $snow;
   padding: 90px 0;
+  position: relative;
+  overflow-x: hidden;
   .container {
     @extend %container;
     .FAQs-content {
@@ -59,6 +61,12 @@
           }
         }
       }
+    }
+    .faq-shape {
+      @include size(40%, 100%, 80%);
+      position: absolute;
+      top: 0;
+      right: -50px;
     }
   }
 }
