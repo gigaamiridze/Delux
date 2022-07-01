@@ -49,7 +49,7 @@ a {
   box-sizing: border-box;
 }
 
-#FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
+#Contact .container, #FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -95,7 +95,7 @@ a {
   margin-bottom: 50px;
 }
 
-#FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
+#Contact .container, #FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -205,7 +205,7 @@ html {
   color: #150303 !important;
 }
 
-#FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
+#Contact .container, #FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -315,7 +315,7 @@ html {
   object-fit: cover;
 }
 
-#FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .fixed-header .container, .first-section .container {
+#Contact .container, #FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .fixed-header .container, .first-section .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -432,7 +432,7 @@ html {
   color: snow;
 }
 
-#FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, .fixed-header .container, .first-section .container, #About .flex-block .container {
+#Contact .container, #FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, .fixed-header .container, .first-section .container, #About .flex-block .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -575,7 +575,7 @@ html {
   width: 72px;
 }
 
-#FAQs .container, #Pricing .container, #Agenda .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container {
+#Contact .container, #FAQs .container, #Pricing .container, #Agenda .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -704,7 +704,7 @@ html {
   height: 400px;
 }
 
-#FAQs .container, #Pricing .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container, #Agenda .container {
+#Contact .container, #FAQs .container, #Pricing .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container, #Agenda .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -836,7 +836,7 @@ html {
   border: none;
   margin-top: 25px;
 }
-#FAQs .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container, #Agenda .container, #Pricing .container {
+#Contact .container, #FAQs .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container, #Agenda .container, #Pricing .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -958,7 +958,7 @@ html {
   right: -50px;
 }
 
-.fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container, #Agenda .container, #Pricing .container, #FAQs .container {
+#Contact .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container, #Agenda .container, #Pricing .container, #FAQs .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -1010,5 +1010,95 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll, fixed;
-  filter: brightness(25%);
+}
+#Contact .container .contact-box .red-text {
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  color: red;
+  text-transform: none;
+  line-height: 24px;
+}
+#Contact .container .contact-box .contact-title {
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+  color: snow;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 60px;
+  margin: 10px 0 42px 0;
+}
+#Contact .container .contact-box .horizontal-block {
+  display: flex;
+  justify-content: space-between;
+}
+#Contact .container .contact-box .horizontal-block .form {
+  display: flex;
+  flex-direction: column;
+  max-width: 440px;
+  width: 100%;
+}
+#Contact .container .contact-box .horizontal-block .form .input-field {
+  width: 100%;
+  height: 45px;
+  background-color: transparent;
+  padding-left: 12px;
+  border: none;
+  outline: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: hsla(0deg, 100%, 99%, 0.3);
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: red;
+  text-transform: none;
+}
+#Contact .container .contact-box .horizontal-block .form .input-field::placeholder {
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: rgb(155, 155, 155);
+  text-transform: capitalize;
+}
+#Contact .container .contact-box .horizontal-block .form .input-field:first-child {
+  text-transform: capitalize;
+}
+#Contact .container .contact-box .horizontal-block .form .input-field:nth-child(2) {
+  margin: 20px 0;
+}
+#Contact .container .contact-box .horizontal-block .form .btn {
+  margin-top: 30px;
+  width: 120px;
+  height: 38px;
+  background-color: transparent;
+  border: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: snow;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Playfair Display", serif;
+  color: snow;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition-property: all;
+  transition-duration: 400ms;
+  transition-timing-function: ease;
+}
+#Contact .container .contact-box .horizontal-block .form .btn:hover {
+  border-color: red;
+  background-color: red;
+}
+#Contact .container .contact-box .horizontal-block .article-box {
+  max-width: 555px;
+  width: 100%;
+}
+#Contact .container .contact-box .horizontal-block .article-box .paragraph {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: snow;
+  text-transform: none;
+  font-weight: 300;
+  line-height: 24px;
+}
+#Contact .container .contact-box .horizontal-block .article-box .paragraph:first-child {
+  margin-bottom: 25px;
 }
