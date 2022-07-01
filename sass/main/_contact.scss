@@ -1,0 +1,10 @@
+@import "../modules/variables";
+@import "../modules/classes";
+@import "../modules/mixins";
+
+#Contact {
+  height: 100vh;
+  @include bg-img(cover, center, no-repeat);
+  background-attachment: scroll, fixed;
+  filter: brightness(25%);
+}
