@@ -49,7 +49,7 @@ a {
   box-sizing: border-box;
 }
 
-#Contact .container, #FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
+footer .container, #Contact .container, #FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -95,7 +95,7 @@ a {
   margin-bottom: 50px;
 }
 
-#Contact .container, #FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
+footer .container, #Contact .container, #FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -205,7 +205,7 @@ html {
   color: #150303 !important;
 }
 
-#Contact .container, #FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
+footer .container, #Contact .container, #FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .first-section .container, .fixed-header .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -315,7 +315,7 @@ html {
   object-fit: cover;
 }
 
-#Contact .container, #FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .fixed-header .container, .first-section .container {
+footer .container, #Contact .container, #FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, #About .flex-block .container, .fixed-header .container, .first-section .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -432,7 +432,7 @@ html {
   color: snow;
 }
 
-#Contact .container, #FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, .fixed-header .container, .first-section .container, #About .flex-block .container {
+footer .container, #Contact .container, #FAQs .container, #Pricing .container, #Agenda .container, #Speakers .container, .fixed-header .container, .first-section .container, #About .flex-block .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -575,7 +575,7 @@ html {
   width: 72px;
 }
 
-#Contact .container, #FAQs .container, #Pricing .container, #Agenda .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container {
+footer .container, #Contact .container, #FAQs .container, #Pricing .container, #Agenda .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -704,7 +704,7 @@ html {
   height: 400px;
 }
 
-#Contact .container, #FAQs .container, #Pricing .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container, #Agenda .container {
+footer .container, #Contact .container, #FAQs .container, #Pricing .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container, #Agenda .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -836,7 +836,7 @@ html {
   border: none;
   margin-top: 25px;
 }
-#Contact .container, #FAQs .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container, #Agenda .container, #Pricing .container {
+footer .container, #Contact .container, #FAQs .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container, #Agenda .container, #Pricing .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -958,7 +958,7 @@ html {
   right: -50px;
 }
 
-#Contact .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container, #Agenda .container, #Pricing .container, #FAQs .container {
+footer .container, #Contact .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container, #Agenda .container, #Pricing .container, #FAQs .container {
   max-width: 1112px;
   margin: 0 auto;
 }
@@ -1111,4 +1111,59 @@ html {
 }
 #Contact .container .contact-box .horizontal-block .article-box .paragraph:first-child {
   margin-bottom: 25px;
+}
+
+footer .container, .fixed-header .container, .first-section .container, #About .flex-block .container, #Speakers .container, #Agenda .container, #Pricing .container, #FAQs .container, #Contact .container {
+  max-width: 1112px;
+  margin: 0 auto;
+}
+
+.fixed-header .container .flex-block .flex-box .buy-btn, .first-section .container .text-box .buy-btn, #Pricing .container .flex-block .pricing-card .content-box .buy-btn {
+  position: relative;
+  width: 160px;
+  height: 38px;
+  background-color: #150303;
+  transition-property: all;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
+}
+.fixed-header .container .flex-block .flex-box .buy-btn:hover, .first-section .container .text-box .buy-btn:hover, #Pricing .container .flex-block .pricing-card .content-box .buy-btn:hover {
+  background-color: red;
+}
+
+.fixed-header .container .flex-block .flex-box .buy-btn .buy-link, .first-section .container .text-box .buy-btn .buy-link, #Pricing .container .flex-block .pricing-card .content-box .buy-btn .buy-link {
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: snow;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Agenda .container .agenda-block .flex-block .timeline-box .agenda-box .agenda-content .time, #Agenda .container .agenda-block .flex-block .timeline-box .agenda-box .agenda-content .event {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: snow;
+  text-transform: none;
+  font-weight: 300;
+  text-align: center;
+  line-height: 20px;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: #150303;
+}
+footer .container .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
