@@ -1166,4 +1166,37 @@ footer .container .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 25px 0;
+}
+footer .container .footer-content .footer-logo {
+  max-width: 105px;
+  width: 100%;
+  height: 30%;
+}
+footer .container .footer-content p {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: snow;
+  text-transform: none;
+  font-weight: 300;
+}
+footer .container .footer-content p .author {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: snow;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+footer .container .footer-content .social-icons a:nth-child(2) {
+  margin: 0 25px;
+}
+footer .container .footer-content .social-icons a .soc-icon {
+  font-size: 25px;
+  color: snow;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
+}
+footer .container .footer-content .social-icons a .soc-icon:hover {
+  color: red;
 }
