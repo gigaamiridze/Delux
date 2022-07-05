@@ -1009,7 +1009,10 @@ html {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll, fixed;
+  background-attachment: fixed;
+}
+#Contact .container .contact-box {
+  padding-top: 110px;
 }
 #Contact .container .contact-box .red-text {
   font-size: 18px;
@@ -1051,12 +1054,19 @@ html {
   font-family: "Playfair Display", serif;
   color: red;
   text-transform: none;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
 }
 #Contact .container .contact-box .horizontal-block .form .input-field::placeholder {
   font-size: 14px;
   font-family: "Playfair Display", serif;
   color: rgb(155, 155, 155);
   text-transform: capitalize;
+}
+#Contact .container .contact-box .horizontal-block .form .input-field:focus {
+  background-color: rgba(255, 0, 0, 0.1);
+  border: none;
 }
 #Contact .container .contact-box .horizontal-block .form .input-field:first-child {
   text-transform: capitalize;
